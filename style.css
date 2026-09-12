@@ -5,8 +5,16 @@
     padding: 0;
     box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
-	/*filter: grayscale(100%)*/
 }
+
+.profilepic {
+	width: 20 px !important;
+	height: auto; 
+	border-radius: 50%; 
+	object-fit: cover;
+	filter: grayscale(100%)
+	margin: auto;
+}	
 
 body {
     display: grid;
@@ -24,7 +32,8 @@ body {
 }
 
 .flipbook .hard {
-    background: #D80010 !important;
+	background: linear-gradient(67deg, #D80010 80%, #00B2A9 20%)
+    /* background: #D80010 !important; */
     color: #fff;
     font-weight: bold;
     border: none; 
