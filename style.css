@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
+	filter: grayscale(100%)
 }
 
 body {
@@ -13,7 +14,8 @@ body {
     height: 100vh;
     width: 100vw;
 	overflow: hidden;
-	background: #f1c40f;
+	/*background: #f1c40f;*/
+	background: linear-gradient(#000000, #FFFFFF);
 }
 
 .flipbook {
@@ -22,7 +24,7 @@ body {
 }
 
 .flipbook .hard {
-    background: #c0392b !important;
+    background: #D80010 !important;
     color: #fff;
     font-weight: bold;
     border: none; 
